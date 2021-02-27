@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Open most oftenly edited config files
+
+EDIT_CMD="$TERMINAL -e nvim"
+OPTIONS="polybar\nbspwm\nbsp_autostart\nsxhkd\nzsh\nprofile\nnvim"
+
+CHOICE=$(echo -e $OPTIONS | dmenu -i -p "Edit Config" -fn "MesloLGS NF:pixelsize=18" -sb "#A4412D")
+
+case $CHOICE in
+
+    "polybar")
+        $EDIT_CMD ~/.config/polybar/config
+        ;;
+
+    "bspwm")
+        $EDIT_CMD ~/.config/bspwm/bspwmrc
+        ;;
+
+    "bsp_autostart")
+        $EDIT_CMD ~/.config/bspwm/autostart
+        ;;
+
+    "sxhkd")
+        $EDIT_CMD ~/.config/sxhkd/sxhkdrc
+        ;;
+
+    "zsh")
+        $EDIT_CMD ~/.zshrc
+        ;;
+
+    "profile")
+        $EDIT_CMD ~/.profile
+        ;;
+
+    "nvim")
+        $EDIT_CMD ~/.config/nvim/init.vim
+        ;;
+
+esac
