@@ -1,0 +1,11 @@
+#!/bin/sh
+xrdb -merge '~/.Xresources' &
+picom --config ~/.config/picom.conf &
+nm-applet &
+blueman-tray &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+xss-lock -l i3lock-fancy-multimonitor &
+tint2 &
+pcmanfm --desktop &
+pasystray &

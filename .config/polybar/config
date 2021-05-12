@@ -23,9 +23,9 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #21d827
+primary = #de534c
 secondary = #e60053
-alert = #bd2c40
+alert = #b72621
 
 [bar/default]
 monitor = ${env:MONITOR}
@@ -54,7 +54,7 @@ module-margin-right = 2
 font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = MesloLGS NF:pixelsize=10;2
+;font-3 = MesloLGS NF:pixelsize=10;2
 
 modules-left = bspwm 
 modules-center = xwindow
@@ -130,13 +130,16 @@ label-empty-padding = 2
 ; Separator in between workspaces
 ; label-separator = |
 
-ws-icon-0 = I;>_
-ws-icon-1 = II;
-ws-icon-2 = III;</>
-ws-icon-3 = IV;SYS
-ws-icon-4 = V;DOC
-ws-icon-5 = VI;GFX
-ws-icon-7 = VII;^_^
+ws-icon-0 = I;一
+ws-icon-1 = II;二
+ws-icon-2 = III;三
+ws-icon-3 = IV;四
+ws-icon-4 = V;五
+ws-icon-5 = VI;六
+ws-icon-6 = VII;七
+ws-icon-7 = VIII;八
+ws-icon-8 = IX;九
+ws-icon-9 = X;十
 
 [module/i3]
 type = internal/i3

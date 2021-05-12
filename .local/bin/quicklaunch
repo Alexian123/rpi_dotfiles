@@ -2,7 +2,7 @@
 
 # Simple dmenu prompt for launching programs
 
-BROWSER=chromium
+BROWSER=firefox
 FILE_MANAGER=pcmanfm
 EDITOR=notepadqq
 MONITOR="$TERMINAL -e htop"

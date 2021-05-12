@@ -3,7 +3,7 @@
 # Open most oftenly edited config files
 
 EDIT_CMD="$TERMINAL -e nvim"
-OPTIONS="polybar\nbspwm\nbsp_autostart\nsxhkd\nzsh\nprofile\nnvim"
+OPTIONS="polybar\nbspwm\nbsp_autostart\nsxhkd\nzsh\nprofile\nnvim\nopenbox\nob_autostart\ni3\ni3blocks\nxresources"
 
 CHOICE=$(echo -e $OPTIONS | dmenu -i -p "Edit Config" -fn "MesloLGS NF:pixelsize=18" -sb "#A4412D")
 
@@ -35,6 +35,26 @@ case $CHOICE in
 
     "nvim")
         $EDIT_CMD ~/.config/nvim/init.vim
+        ;;
+
+    "openbox")
+        $EDIT_CMD ~/.config/openbox/rc.xml
+        ;;
+
+    "ob_autostart")
+        $EDIT_CMD ~/.config/openbox/autostart
+        ;;
+
+    "i3")
+        $EDIT_CMD ~/.config/i3/config
+        ;;
+
+    "i3blocks")
+        $EDIT_CMD ~/.config/i3blocks/config
+        ;;
+
+    "xresources")
+        $EDIT_CMD ~/.Xresources  
         ;;
 
 esac

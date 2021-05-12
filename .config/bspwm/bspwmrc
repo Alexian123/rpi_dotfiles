@@ -3,7 +3,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # autostart file
 ~/.config/bspwm/autostart
 
-bspc monitor -d I II III IV V VI VII
+bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         2
 bspc config window_gap          10
@@ -14,28 +14,6 @@ bspc config gapless_monocle      true
 
 bspc config focus_follows_pointer    true
 
-# Internet
-bspc rule -a Chromium desktop='^2'
-bspc rule -a Transmission-gtk desktop='^2'
-
-# </>
-bspc rule -a Codeblocks desktop='^3' follow=on
-
-# SYS
-bspc rule -a Timeshift-gtk desktop='^4' follow=on
-bspc rule -a Lxappearance desktop='^4' follow=on
-bspc rule -a qt5ct desktop='^4' follow=on
-
-# DOC
-bspc rule -a libreoffice-startcenter desktop='^5' follow=on
-
-# GFX
-bspc rule -a Gimp desktop='^6' follow=on
-
-# ^_^
-bspc rule -a vlc desktop='^8' follow=on
-bspc rule -a Ristretto desktop='^8' state=floating follow=on
-
-# Other
-bspc rule -a Galculator state=floating
-bspc rule -a mpv state=floating
+bspc rule -a firefox desktop="^2"
+bspc rule -a Galculator state="floating"
+bspc rule -a Gpick state="floating"
