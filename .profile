@@ -26,8 +26,16 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# Vars
+# user vars
 export VISUAL=nvim
 export EDITOR=nvim
 export PAGER=less
 export TERMINAL=st
+export DOTFILES=~/Documents/rpi_dotfiles
+
+# pfetch
+export PF_SEP=":"
+export PF_COL1=5
+export PF_COL2=5
+export PF_COL3=1
+export PF_ASCII="manjaro"
