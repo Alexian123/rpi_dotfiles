@@ -1,0 +1,1 @@
+# Raspberry Pi Manjaro rice
