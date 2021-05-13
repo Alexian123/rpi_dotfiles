@@ -100,8 +100,8 @@ label-focused-padding = 2
 label-occupied = %icon%
 label-occupied-padding = 2
 
-label-empty =
-;label-empty-padding = 2
+label-empty = %icon%
+label-empty-padding = 2
 
 label-urgent = 
 label-urgent-padding = 2
