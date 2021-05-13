@@ -1,5 +1,5 @@
 ! xterm
-xterm*faceSize: 14
+Xterm*faceSize: 14
 XTerm*background:  #000000
 XTerm*foreground:  #9f9f9f
 XTerm*color0:      #000000

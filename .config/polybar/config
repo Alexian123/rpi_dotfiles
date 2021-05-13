@@ -98,6 +98,7 @@ label-focused-underline = ${colors.foreground}
 label-focused-padding = 2
 
 label-occupied = %icon%
+label-occupied-underline = #D0857B
 label-occupied-padding = 2
 
 label-empty = %icon%

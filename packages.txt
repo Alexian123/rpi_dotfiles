@@ -43,7 +43,8 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 linux-rpi4
 linux-rpi4-headers
-lxappearance
+lxappearance-gtk3
+lzip
 m4
 make
 man-db
@@ -65,13 +66,14 @@ ntfs-3g
 obconf
 openbox
 openssh
+p7zip
 pacman
 papirus-icon-theme
 parted
 pasystray
 patch
 pavucontrol
-pcmanfm
+pcmanfm-gtk3
 pfetch
 picom
 pkgconf
@@ -112,6 +114,7 @@ vim
 vlc
 wget
 wpa_supplicant
+xarchiver
 xcursor-breeze
 xdg-user-dirs
 xdg-utils
@@ -165,10 +168,10 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xpdf
 xss-lock
 xterm
 yay
-zathura-pdf-poppler
 zsh
 zsh-autosuggestions
 zsh-completions
