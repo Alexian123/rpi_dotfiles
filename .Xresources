@@ -20,7 +20,7 @@ XTerm*color14:     #71bebe
 XTerm*color15:     #ffffff
 
 ! st
-st*.font: MesloLGS NF:pixelsize=18:antialias=true:autohint=true;
+st*.font: agave Nerd Font Mono:pixelsize=22:antialias=true:autohint=true;
 st*.alpha: 0.9
 st*background: rgb:00/00/00
 st*foreground: rgb:7f/7f/7f

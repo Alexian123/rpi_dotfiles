@@ -81,7 +81,7 @@ bindsym $mod+r mode "resize"
 
 # launch programs
 bindsym $mod+Return exec --no-startup-id $terminal
-bindsym Print exec --no-startup-id "scrot '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f ~/Pictures/screenshots/'"
+bindsym Print exec --no-startup-id screengrab
 
 # i3 options
 bindsym $mod+Shift+c reload

@@ -42,6 +42,9 @@
             </menu>
         </menu>
         <menu id="6" label="Graphics">
+            <item label="Gpick"> <action name="Execute">
+                <execute>gpick</execute>
+            </action> </item>
             <item label="LibreOffice Draw"> <action name="Execute">
                 <execute>libreoffice --draw</execute>
             </action> </item>
@@ -105,8 +108,8 @@
             <item label="LibreOffice Writer"> <action name="Execute">
                 <execute>libreoffice --writer</execute>
             </action> </item>
-            <item label="Zathura"> <action name="Execute">
-                <execute>zathura</execute>
+            <item label="Xpdf"> <action name="Execute">
+                <execute>xpdf</execute>
             </action> </item>
         </menu>
         <menu id="19" label="Shells">
@@ -134,6 +137,9 @@
                     </action> </item>
                     <item label="Bluetooth Manager"> <action name="Execute">
                         <execute>blueman-manager</execute>
+                    </action> </item>
+                    <item label="Firewall Configuration"> <action name="Execute">
+                        <execute>gufw</execute>
                     </action> </item>
                     <item label="LightDM GTK+ Greeter settings"> <action name="Execute">
                         <execute>lightdm-gtk-greeter-settings-pkexec</execute>
@@ -209,6 +215,9 @@
             </action> </item>
             <item label="picom"> <action name="Execute">
                 <execute>picom</execute>
+            </action> </item>
+            <item label="Xarchiver"> <action name="Execute">
+                <execute>xarchiver</execute>
             </action> </item>
             <item label="Xev"> <action name="Execute">
                 <execute>st -e xev</execute>

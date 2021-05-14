@@ -124,9 +124,6 @@ ws-icon-3 = IV;四
 ws-icon-4 = V;五
 ws-icon-5 = VI;六
 ws-icon-6 = VII;七
-ws-icon-7 = VIII;八
-ws-icon-8 = IX;九
-ws-icon-9 = X;十
 
 [module/power]
 type = custom/text
